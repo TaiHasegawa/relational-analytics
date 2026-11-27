@@ -1,0 +1,14 @@
+---
+description: relana の作業規約
+alwaysApply: true
+---
+
+このリポジトリの作業規約は `AGENTS.md` にあります。作業前に必ず読んでください。
+
+最低限の規約:
+- 利用者はエンジニアではない。専門用語を出さず、コマンドは自分で実行する
+- セットアップは `python3 scripts/setup.py`
+- 指標の値を LLM が推測・計算してはいけない（`relana` が計算する）
+- 生データを全文読まない（`relana profile` を使う）
+- MCP コネクタ等で本番データを取得しない
+- 結果の説明では `does_not_mean` を必ず添える

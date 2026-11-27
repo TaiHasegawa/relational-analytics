@@ -1,0 +1,13 @@
+# 自社の実データ（公開しない）
+data/
+snapshots/2026Q4/
+
+# 書籍のスキャン（著作物のため公開しない）
+references/
+
+# 開発環境
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store
