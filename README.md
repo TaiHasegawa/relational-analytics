@@ -11,7 +11,7 @@
 > team structure and vulnerability (single points of failure). It is designed for HR teams
 > who are not engineers, so the whole workflow (setup, data collection, org-chart inference,
 > interpretation) can be driven by a coding agent such as Claude Code, Codex, Gemini CLI,
-> Cursor or GitHub Copilot. The report and documentation are in Japanese. Apache-2.0.
+> Cursor or GitHub Copilot. The report and documentation are in Japanese. MIT.
 
 
 ## 画面の例（架空の100名の会社）
@@ -202,8 +202,6 @@ Claude Code などのカレンダー連携が使える場合、**Google Cloud �
 - 出力には**個人を特定できる情報が含まれます**。閲覧範囲の管理は運用側の責任です
 - 本ツールの指標は **解雇・懲戒・人事評価点の根拠として設計されていません**。
   配置・後継者計画・組織改善の材料としてお使いください
-- 従業員データの収集・利用には、利用目的の特定と通知または公表が求められます。
-  公表はプライバシーポリシーや就業規則への記載で満たせます
 - **コーディングエージェントを使う前に、会話を AI の学習に使わない設定（オプトアウト）にしてください。**
   エージェントがカレンダーを読む経路では、社員の氏名や会議の参加者がエージェントとの会話を通ります。
   - Claude Code を個人の Free / Pro / Max アカウントで使う場合: claude.ai の「設定」→「プライバシー」で
@@ -225,4 +223,4 @@ Claude Code などのカレンダー連携が使える場合、**Google Cloud �
 
 ## ライセンス
 
-Apache-2.0
+MIT

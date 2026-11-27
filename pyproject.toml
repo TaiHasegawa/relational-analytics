@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "HR Relational Analytics - organizational network analysis from digital exhaust"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "Apache-2.0" }
+license = { text = "MIT" }
 dependencies = [
     "networkx>=3.2",
     "numpy>=1.26",
