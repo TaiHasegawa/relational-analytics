@@ -6,6 +6,14 @@
 
 ---
 
+> **English summary** — relational-analytics turns meeting records from Google Calendar into an
+> organizational network and reports five structural signals: ideation, influence, silos,
+> team structure and vulnerability (single points of failure). It is designed for HR teams
+> who are not engineers, so the whole workflow (setup, data collection, org-chart inference,
+> interpretation) can be driven by a coding agent such as Claude Code, Codex, Gemini CLI,
+> Cursor or GitHub Copilot. The report and documentation are in Japanese. Apache-2.0.
+
+
 ## はじめかた（エンジニアでない方へ）
 
 ### コーディングエージェントをお使いの場合 — いちばん簡単です
