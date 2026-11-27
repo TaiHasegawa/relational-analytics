@@ -149,6 +149,21 @@ Claude Code、Codex、Gemini CLI、Antigravity、Cursor、GitHub Copilot で使�
 
 ---
 
+## 参考文献
+
+各分析が何をどの文献から取ったかは、レポートの「出典」ページにも載ります。
+
+- ポール・レオナルディ、ノシャー・コントラクター（2018）『ピープルアナリティクスで人事戦略が変わる』第5章、p.96-119。『ハーバード・ビジネス・レビュー』掲載論文の邦訳。6つの構造的特徴（発想力、影響力、効率性、イノベーション、サイロ、脆弱性）と、サイロと判断する5:1の基準
+- Paul Leonardi, Noshir Contractor (2018) "Better People Analytics: Measure Who They Know, Not Just Who They Are", *Harvard Business Review*, November–December 2018, pp.70-81. 上の章の原論文。属性ではなく関係を測るという方針
+- Ronald S. Burt (1992) *Structural Holes: The Social Structure of Competition*, Harvard University Press. 「発想の起点となる人」で使う制約（constraint）の定義
+- Linton C. Freeman (1977) "A Set of Measures of Centrality Based on Betweenness", *Sociometry*, 40(1), pp.35-41. 「インフルエンサー」と「ハブとなっている人」で使う媒介中心性の定義
+- Roger V. Gould, Roberto M. Fernandez (1989) "Structures of Mediation: A Formal Approach to Brokerage in Transaction Networks", *Sociological Methodology*, 19, pp.89-126. 部門をまたぐ仲介の数え方
+- Rob Cross, Reb Rebele, Adam Grant (2016) "Collaborative Overload", *Harvard Business Review*, January–February 2016. 協働の要請が特定の人に集まることの影響
+- Mark S. Granovetter (1973) "The Strength of Weak Ties", *American Journal of Sociology*, 78(6), pp.1360-1380. 部門をまたぐ接点を重く見る理由
+- M. E. J. Newman, M. Girvan (2004) "Finding and Evaluating Community Structure in Networks", *Physical Review E*, 69, 026113. 部門の分かれ方の強さを示すモジュラリティの定義
+
+---
+
 ## ドキュメント
 
 | | |
