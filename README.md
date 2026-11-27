@@ -5,13 +5,6 @@
 経歴やスキルのような、その人ひとりを見れば分かること（属性）は使いません。
 見るのは、組織の中でその人がどこにいるかです。
 
-> **English summary** — relational-analytics turns meeting records from Google Calendar into an
-> organizational network and reports five structural signals: ideation, influence, silos,
-> team structure and vulnerability (single points of failure). It is designed for HR teams
-> who are not engineers, so the whole workflow (setup, data collection, org-chart inference,
-> interpretation) can be driven by a coding agent such as Claude Code, Codex, Gemini CLI,
-> Cursor or GitHub Copilot. The report and documentation are in Japanese. MIT.
-
 ---
 
 ## この分析で可視化するもの
