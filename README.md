@@ -151,8 +151,6 @@ Claude Code、Codex、Gemini CLI、Antigravity、Cursor、GitHub Copilot で使�
 
 ## 参考文献
 
-各分析が何をどの文献から取ったかは、レポートの「出典」ページにも載ります。
-
 - ポール・レオナルディ、ノシャー・コントラクター（2018）『ピープルアナリティクスで人事戦略が変わる』第5章、p.96-119。『ハーバード・ビジネス・レビュー』掲載論文の邦訳。6つの構造的特徴（発想力、影響力、効率性、イノベーション、サイロ、脆弱性）と、サイロと判断する5:1の基準
 - Paul Leonardi, Noshir Contractor (2018) "Better People Analytics: Measure Who They Know, Not Just Who They Are", *Harvard Business Review*, November–December 2018, pp.70-81. 上の章の原論文。属性ではなく関係を測るという方針
 - Ronald S. Burt (1992) *Structural Holes: The Social Structure of Competition*, Harvard University Press. 「発想の起点となる人」で使う制約（constraint）の定義
