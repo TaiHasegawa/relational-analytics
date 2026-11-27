@@ -143,9 +143,7 @@ Windows では、`scripts` フォルダの中の `setup.ps1` を右クリック�
 
 ## 自社のカレンダーで分析するには
 
-### エージェントに頼む
-
-Claude Code のように Google カレンダーの連携が組み込まれたエージェントなら、Google Cloud の設定は要りません。
+Claude Code のように Google カレンダーの連携が組み込まれたエージェントで、次のように頼みます。Google Cloud の設定は要りません。
 
 > 「カレンダーから組織のつながりを分析して」
 
@@ -154,30 +152,6 @@ Claude Code のように Google カレンダーの連携が組み込まれたエ
 
 全員分を読む必要はありません。1人分を読むと、その人の会議に出ていた
 全員どうしの関係が分かります。100名の組織なら15〜20名分で足ります。
-
-### API でつないで定期的に集める
-
-継続的に集めたくなったら、この経路に移ります。Google Cloud プロジェクトが要るのは、この経路だけです。
-先に、参加者まで取得できるかを数名分で確かめます。
-
-```bash
-.venv/bin/python scripts/verify_calendar_access.py \
-    --client-secrets <ダウンロードしたJSON> \
-    --colleagues 同僚1@example.co.jp,同僚2@example.co.jp
-```
-
-Google 側の設定手順は、このスクリプトが画面に表示します。5〜10分で終わります。
-エージェントを使っているなら「カレンダーに接続して」と頼めば案内が出ます。
-
-確認が取れたら、次の順に実行します。
-
-```bash
-.venv/bin/relana connect google --client-secrets <JSON>   # ブラウザで「許可」を押す
-.venv/bin/relana collect --keep-titles -o interactions.csv
-.venv/bin/relana org-draft --interactions interactions.csv -o org-evidence.json
-# → エージェントが部門を判断し、persons.csv を作る
-.venv/bin/relana snapshot create 2026Q1 --interactions interactions.csv --persons persons.csv
-```
 
 ---
 
