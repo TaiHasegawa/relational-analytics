@@ -44,7 +44,7 @@ python3 -m venv .venv
 - Python 3.11 以上が必要。無ければ `setup.py` が入れ方を案内する
 - 以降、コマンドは `.venv/bin/relana`（Windows は `.venv\Scripts\relana.exe`）を使う
 - 利用者向けには、ターミナルを開かずに済む入口もある
-  （macOS: `scripts/はじめに実行.command` をダブルクリック／Windows: `scripts/setup.ps1` を右クリックして実行）
+  （macOS: `scripts/setup.command` をダブルクリック／Windows: `scripts/setup.ps1` を右クリックして実行）
 
 ## 標準ワークフロー
 

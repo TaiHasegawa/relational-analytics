@@ -2,6 +2,9 @@
 data/
 snapshots/2026Q4/
 
+# relana demo が毎回生成する（実行のたびに差分が出るため追跡しない）
+snapshots/demo/report/
+
 # 書籍のスキャン（著作物のため公開しない）
 references/
 

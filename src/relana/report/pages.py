@@ -398,7 +398,7 @@ def _sources_page() -> str:
     s.append("<h2>この OSS が自分で決めたこと</h2>")
     s.append(
         "<p class='lede'>次の3つは、上の文献にありません。"
-        "設計の理由は <code>docs/requirements.md</code> に書いています。</p>"
+        "設計の理由は <code>docs/design-google-calendar.md</code> に書いています。</p>"
     )
     s.append(
         "<ul>"
